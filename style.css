@@ -2136,3 +2136,68 @@ body {
         border-color: rgba(18, 53, 35, .12);
     }
 }
+
+.card-art {
+    position: relative;
+    height: 220px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.card-art img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform .45s ease;
+}
+
+.opportunity-card:hover .card-art img {
+    transform: scale(1.035);
+}
+
+.image-number {
+    position: absolute;
+    top: 16px;
+    left: 17px;
+    min-width: 35px;
+    height: 35px;
+    display: grid;
+    place-items: center;
+    border: 1px solid rgba(255, 255, 255, .72);
+    border-radius: 50%;
+    color: #fff;
+    background: rgba(18, 53, 35, .84);
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.service-coming {
+    width: fit-content;
+    color: #347b4c;
+    text-decoration: none;
+}
+
+.service-photo {
+    width: 100%;
+    height: 126px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.service-coming span {
+    margin-left: 5px;
+}
+
+.service-coming:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+@media (max-width: 680px) {
+    .card-art {
+        height: 220px;
+    }
+}

@@ -77,7 +77,7 @@ if (suggestionForm && formStatus) {
             return;
         }
 
-        formStatus.textContent = "Thanks for trying the form. This demonstration does not send or save suggestions.";
+        formStatus.textContent = "Thanks for sharing. This site cannot send or save suggestions yet; please contact the organizer directly for current details.";
     });
 }
 
