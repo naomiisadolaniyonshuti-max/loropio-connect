@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#244c3b">
+    <meta name="description" content="Loropio Connect brings community information, learning opportunities and local services together in one welcoming place.">
+    <title>Loropio Connect | Connecting Loropio Through Information</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header" id="top">
+        <div class="header-inner">
+            <a class="brand" href="#top" aria-label="Loropio Connect home">
+                <span class="brand-mark" aria-hidden="true">L</span>
+                <span class="brand-name">Loropio <span>Connect</span></span>
+            </a>
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+                <span class="menu-toggle-label">Menu</span>
+                <span class="menu-icon" aria-hidden="true"><i></i><i></i></span>
+            </button>
+            <nav class="primary-navigation" id="primary-navigation" aria-label="Main navigation">
+                <a href="#opportunities">Opportunities</a>
+                <a href="#education">Education</a>
+                <a href="#community">Community</a>
+                <a href="#services">Local services</a>
+                <a class="nav-contact" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="hero" aria-labelledby="hero-title">
+            <img class="hero-image"
+                 src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&amp;fit=crop&amp;w=2200&amp;q=90"
+                 alt="Friends and neighbors spending time together outdoors"
+                 fetchpriority="high">
+            <div class="hero-shade"></div>
+            <div class="hero-content page-width">
+                <p class="eyebrow hero-eyebrow"><span></span> A community, connected</p>
+                <h1 id="hero-title">Good things happen<br>when we <em>connect.</em></h1>
+                <p class="hero-copy">A welcoming place to discover opportunities, learning, local services and the stories that bring our community together.</p>
+                <div class="hero-actions">
+                    <a class="button button-light" href="#opportunities">Explore what’s here <span aria-hidden="true">→</span></a>
+                    <a class="text-link hero-text-link" href="#about">Get to know us <span aria-hidden="true">↗</span></a>
+                </div>
+            </div>
+            <div class="hero-caption"><span class="caption-line"></span> Connecting Loropio Through Information</div>
+            <a class="hero-scroll" href="#welcome" aria-label="Scroll to discover"><span aria-hidden="true">↓</span></a>
+        </section>
+
+        <section class="welcome section-pad" id="welcome" aria-labelledby="welcome-title">
+            <div class="page-width welcome-grid">
+                <div class="section-label"><span>01</span> A place to start</div>
+                <div class="welcome-main">
+                    <p class="eyebrow">Welcome to Loropio Connect</p>
+                    <h2 class="display-heading" id="welcome-title">Your community.<br><em>All in one place.</em></h2>
+                    <div class="welcome-bottom">
+                        <p>Finding the right information shouldn’t be difficult. Loropio Connect brings useful community updates, opportunities, learning and local services together—so you can spend less time searching and more time moving forward.</p>
+                        <a class="text-link" href="#about">Our story <span aria-hidden="true">↗</span></a>
+                    </div>
+                </div>
+                <div class="welcome-note">
+                    <span class="note-icon" aria-hidden="true">✳</span>
+                    <p>Made with community in mind.</p>
+                    <span>A local information project</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="opportunities section-pad" id="opportunities" aria-labelledby="opportunities-title">
+            <div class="page-width">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">Find your next step</p>
+                        <h2 class="display-heading" id="opportunities-title">Opportunities <em>to grow.</em></h2>
+                    </div>
+                    <p class="section-intro">Explore pathways to work, learning and new skills. The examples below are demonstrations, not active listings.</p>
+                </div>
+                <div class="filter-row" role="group" aria-label="Filter opportunities">
+                    <span class="filter-label">Browse by</span>
+                    <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">Everything</button>
+                    <button class="filter-button" type="button" data-filter="jobs" aria-pressed="false">Work</button>
+                    <button class="filter-button" type="button" data-filter="learning" aria-pressed="false">Learning</button>
+                    <button class="filter-button" type="button" data-filter="skills" aria-pressed="false">Skills</button>
+                </div>
+                <div class="opportunity-grid">
+                    <article class="opportunity-card opportunity-featured" data-category="jobs">
+                        <div class="card-topline"><span class="card-category">Work &amp; careers</span><span class="demo-tag">Demo listing</span></div>
+                        <div class="card-art art-sunrise" aria-hidden="true"><span>01</span><span class="art-symbol">↗</span></div>
+                        <div class="opportunity-details">
+                            <p class="card-kicker">Example opportunity</p>
+                            <h3>Discover local work opportunities</h3>
+                            <p>A sample space for job openings and internships shared by trusted organisations.</p>
+                            <a class="card-link" href="#contact">Suggest a listing <span aria-hidden="true">→</span></a>
+                        </div>
+                    </article>
+                    <article class="opportunity-card" data-category="learning">
+                        <div class="card-topline"><span class="card-category">Education</span><span class="demo-tag">Demo listing</span></div>
+                        <div class="card-art art-pages" aria-hidden="true"><span>02</span><span class="art-symbol">✳</span></div>
+                        <div class="opportunity-details">
+                            <p class="card-kicker">Example opportunity</p>
+                            <h3>Find a learning opportunity</h3>
+                            <p>A sample space for scholarships, study programmes and education resources.</p>
+                            <a class="card-link" href="#education">Explore learning <span aria-hidden="true">→</span></a>
+                        </div>
+                    </article>
+                    <article class="opportunity-card" data-category="skills">
+                        <div class="card-topline"><span class="card-category">Skills &amp; training</span><span class="demo-tag">Demo listing</span></div>
+                        <div class="card-art art-growth" aria-hidden="true"><span>03</span><span class="art-symbol">⌁</span></div>
+                        <div class="opportunity-details">
+                            <p class="card-kicker">Example opportunity</p>
+                            <h3>Build skills for what’s next</h3>
+                            <p>A sample space for digital learning, practical training and skill-building.</p>
+                            <a class="card-link" href="#education">See learning resources <span aria-hidden="true">→</span></a>
+                        </div>
+                    </article>
+                </div>
+                <p class="filter-empty" hidden>No examples in this category yet.</p>
+                <p class="demo-disclaimer"><span aria-hidden="true">ⓘ</span> These are demonstration examples, not current vacancies or verified programmes. Always confirm details with the official provider.</p>
+            </div>
+        </section>
+
+        <section class="education section-pad" id="education" aria-labelledby="education-title">
+            <div class="page-width education-grid">
+                <div class="education-image-wrap">
+                    <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&amp;fit=crop&amp;w=1400&amp;q=90"
+                         alt="A learner writing in a notebook at a desk" loading="lazy">
+                    <div class="image-note"><span class="note-icon" aria-hidden="true">✳</span><span>Curiosity opens doors.</span></div>
+                </div>
+                <div class="education-content">
+                    <p class="eyebrow">Keep learning, keep growing</p>
+                    <h2 class="display-heading" id="education-title">A little knowledge<br>can take you <em>far.</em></h2>
+                    <p class="education-copy">Learning looks different for everyone. Find a starting point for educational programmes, study resources and skills training—all gathered with your next step in mind.</p>
+                    <div class="learning-links">
+                        <a href="#opportunities"><span class="learning-number">01</span><span><strong>Scholarships &amp; study</strong><small>Explore education opportunities</small></span><span class="learning-arrow" aria-hidden="true">↗</span></a>
+                        <a href="#opportunities"><span class="learning-number">02</span><span><strong>Skills &amp; training</strong><small>Discover ways to build new skills</small></span><span class="learning-arrow" aria-hidden="true">↗</span></a>
+                        <a href="#contact"><span class="learning-number">03</span><span><strong>Share a resource</strong><small>Help someone else find their way</small></span><span class="learning-arrow" aria-hidden="true">↗</span></a>
+                    </div>
+                    <p class="small-demo-note">Examples are for demonstration only. No live programmes are listed yet.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="community section-pad" id="community" aria-labelledby="community-title">
+            <div class="page-width">
+                <div class="community-heading">
+                    <div>
+                        <p class="eyebrow">Around the community</p>
+                        <h2 class="display-heading" id="community-title">What brings us <em>together.</em></h2>
+                    </div>
+                    <p>From a shared announcement to a gathering down the road, it’s easier to take part when you know what’s happening.</p>
+                </div>
+                <div class="community-feature">
+                    <div class="community-photo">
+                        <img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&amp;fit=crop&amp;w=1600&amp;q=90"
+                             alt="People coming together at a community event" loading="lazy">
+                        <span class="photo-badge">A space for local stories</span>
+                    </div>
+                    <div class="community-story">
+                        <div class="story-topline"><span class="demo-tag">Demo content</span><span class="story-date">Community noticeboard</span></div>
+                        <p class="story-kicker">News, gatherings &amp; announcements</p>
+                        <h3>Stay close to what’s happening around you.</h3>
+                        <p>This space is ready for community meetings, local events and important public information—shared clearly and in one place.</p>
+                        <a class="card-link" href="#contact">Suggest an announcement <span aria-hidden="true">→</span></a>
+                    </div>
+                </div>
+                <p class="demo-disclaimer"><span aria-hidden="true">ⓘ</span> This noticeboard is a demonstration. No real events or announcements are currently published.</p>
+            </div>
+        </section>
+
+        <section class="services section-pad" id="services" aria-labelledby="services-title">
+            <div class="page-width">
+                <div class="section-heading services-heading">
+                    <div>
+                        <p class="eyebrow">Made local, for everyone</p>
+                        <h2 class="display-heading" id="services-title">Good things, <em>close to home.</em></h2>
+                    </div>
+                    <p class="section-intro">A future home for the people, small businesses and essential services that make our community work.</p>
+                </div>
+                <div class="service-grid">
+                    <article class="service-card">
+                        <span class="service-icon" aria-hidden="true">⌂</span>
+                        <span class="demo-tag">Example category</span>
+                        <h3>Everyday essentials</h3>
+                        <p>A directory space for useful services and nearby support.</p>
+                        <span class="service-coming">Local listings coming soon</span>
+                    </article>
+                    <article class="service-card">
+                        <span class="service-icon" aria-hidden="true">✳</span>
+                        <span class="demo-tag">Example category</span>
+                        <h3>Local businesses</h3>
+                        <p>A place for community businesses to share what they do.</p>
+                        <span class="service-coming">Local listings coming soon</span>
+                    </article>
+                    <article class="service-card">
+                        <span class="service-icon" aria-hidden="true">↗</span>
+                        <span class="demo-tag">Example category</span>
+                        <h3>Community services</h3>
+                        <p>A starting point for finding support and helpful contacts.</p>
+                        <span class="service-coming">Local listings coming soon</span>
+                    </article>
+                </div>
+                <p class="demo-disclaimer"><span aria-hidden="true">ⓘ</span> Categories are examples only. No businesses, services or contact details are being advertised.</p>
+            </div>
+        </section>
+
+        <section class="about section-pad" id="about" aria-labelledby="about-title">
+            <div class="page-width about-grid">
+                <div class="about-label">
+                    <p class="eyebrow">Why Loropio Connect</p>
+                    <span class="about-mark" aria-hidden="true">L<span>.</span></span>
+                </div>
+                <div class="about-content">
+                    <h2 class="display-heading" id="about-title">Information can open doors.<br><em>Let’s make it easier to find.</em></h2>
+                    <div class="about-columns">
+                        <div>
+                            <h3>Why we started</h3>
+                            <p>Useful information often travels by word of mouth or gets lost across different messages. This project is a simple, shared place to make community information easier to find and access.</p>
+                        </div>
+                        <div>
+                            <h3>Our hope</h3>
+                            <p>To help residents discover opportunities, support local businesses and feel more connected to what’s happening around them—one useful update at a time.</p>
+                        </div>
+                    </div>
+                    <p class="project-note">An individual community development project under Learning Lions.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section-pad" id="contact" aria-labelledby="contact-title">
+            <div class="page-width contact-grid">
+                <div class="contact-intro">
+                    <p class="eyebrow">Help this grow</p>
+                    <h2 class="display-heading" id="contact-title">Have something<br>to <em>share?</em></h2>
+                    <p>Suggest a community announcement, opportunity, learning resource or local service to feature on Loropio Connect.</p>
+                    <p class="contact-note"><span aria-hidden="true">✳</span> There are no published contact details yet. This form is a demonstration and does not send or store information.</p>
+                </div>
+                <form class="contact-form" id="suggestion-form" novalidate>
+                    <div class="form-row">
+                        <label for="name">Your name <span>(optional)</span></label>
+                        <input id="name" name="name" type="text" autocomplete="name" placeholder="How should we address you?">
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Email address <span>(optional)</span></label>
+                        <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" aria-describedby="email-hint">
+                        <span class="field-hint" id="email-hint">Only enter an email if you would like a reply.</span>
+                    </div>
+                    <div class="form-row">
+                        <label for="suggestion-type">What would you like to share?</label>
+                        <select id="suggestion-type" name="suggestion-type" required>
+                            <option value="">Choose a category</option>
+                            <option value="opportunity">An opportunity</option>
+                            <option value="education">A learning resource</option>
+                            <option value="announcement">An announcement or event</option>
+                            <option value="service">A local service</option>
+                            <option value="other">Something else</option>
+                        </select>
+                    </div>
+                    <div class="form-row">
+                        <label for="message">A few details</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Tell us a little more…" required></textarea>
+                    </div>
+                    <button class="button button-dark form-submit" type="submit">Review suggestion <span aria-hidden="true">→</span></button>
+                    <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+                    <p class="form-disclaimer">Demonstration only: your suggestion will not be sent or saved.</p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="page-width footer-main">
+            <div class="footer-brand">
+                <a class="brand brand-footer" href="#top">
+                    <span class="brand-mark" aria-hidden="true">L</span>
+                    <span class="brand-name">Loropio <span>Connect</span></span>
+                </a>
+                <p>Connecting Loropio<br>Through Information.</p>
+            </div>
+            <div class="footer-links">
+                <div><span class="footer-heading">Explore</span><a href="#opportunities">Opportunities</a><a href="#education">Education</a><a href="#community">Community</a></div>
+                <div><span class="footer-heading">Discover</span><a href="#services">Local services</a><a href="#about">About us</a><a href="#contact">Get in touch</a></div>
+            </div>
+            <a class="back-to-top" href="#top">Back to top <span aria-hidden="true">↑</span></a>
+        </div>
+        <div class="footer-bottom page-width"><span>© <span id="current-year"></span> Loropio Connect</span><span>A community information project · Sample website content</span></div>
+    </footer>
+</body>
+</html>
